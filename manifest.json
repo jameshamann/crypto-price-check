@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
 
-  "name": "Coin Check",
+  "name": "CrypCheck",
   "description": "This extension allows the user to check the price of Bitcoin,Ethereum or Litecoin.",
   "version": "1.0",
 
