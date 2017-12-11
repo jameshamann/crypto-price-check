@@ -8,8 +8,11 @@ $(document).ready(function(){
           type: "GET",
           dataType: "JSON",
           success: function (data) {
-            console.log(data)
+            console.log(data.BTC.GBP)
             var coinPrice = data
+            document.getElementById("bitcoin").innerHTML="£"+data.BTC.GBP;
+            document.getElementById("ethereum").innerHTML="£"+data.ETH.GBP;
+            document.getElementById("litecoin").innerHTML="£"+data.LTC.GBP;
           },
           error: function (xhr, status) {
               alert("Sorry, there was a problem loading the latest prices! Please try again");

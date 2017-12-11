@@ -3,6 +3,7 @@
  * Copyright 2014-2017 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
+
 .materialize-red {
   background-color: #e51c23 !important;
 }
@@ -2882,7 +2883,7 @@ ul.staggered-list li {
 .page-footer {
   padding-top: 20px;
   color: #fff;
-  background-color: #ee6e73;
+  background-color: #eceff1;
 }
 
 .page-footer .footer-copyright {

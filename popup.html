@@ -7,44 +7,90 @@
 <html>
   <head>
       <link rel="stylesheet" type="text/css" href="./css/materialize.css">
+      <link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Coin Check</title>
   </head>
   <body>
-    <h4>Live Coin Rates</h4>
-    <div id="container">
+     <h5 style="text-align:center">Live Cryptocurrency Rates</h5>
 
-      <table>
+    <div class="container">
+      <table class="highlight">
         <thead>
           <tr>
               <th>Name</th>
-              <th>Item Name</th>
-              <th>Item Price</th>
+              <th>Item Price (£GBP)</th>
           </tr>
         </thead>
-
-        <tbody>
+        <body>
           <tr>
-            <td>Alvin</td>
-            <td>Eclair</td>
-            <td>$0.87</td>
+            <td><b>Bitcoin (BTC)</b></td>
+            <td id="bitcoin">£
+              <div class="preloader-wrapper small active">
+                <div class="spinner-layer spinner-green-only">
+                  <div class="circle-clipper left">
+                    <div class="circle"></div>
+                  </div><div class="gap-patch">
+                <div class="circle"></div>
+              </div><div class="circle-clipper right">
+            <div class="circle"></div>
+         </div>
+      </div>
+    </div></td>
           </tr>
           <tr>
-            <td>Alan</td>
-            <td>Jellybean</td>
-            <td>$3.76</td>
+            <td><b>Ethereum (ETH)</b></td>
+            <td id="ethereum">£
+              <div class="preloader-wrapper small active">
+                <div class="spinner-layer spinner-green-only">
+                  <div class="circle-clipper left">
+                    <div class="circle"></div>
+                  </div><div class="gap-patch">
+                <div class="circle"></div>
+              </div><div class="circle-clipper right">
+            <div class="circle"></div>
+         </div>
+      </div>
+    </div></td>
           </tr>
           <tr>
-            <td>Jonathan</td>
-            <td>Lollipop</td>
-            <td>$7.00</td>
+            <td><b>Litecoin (LTC)</b></td>
+            <td id="litecoin">£
+              <div class="preloader-wrapper small active">
+                <div class="spinner-layer spinner-green-only">
+                  <div class="circle-clipper left">
+                    <div class="circle"></div>
+                  </div><div class="gap-patch">
+                <div class="circle"></div>
+              </div><div class="circle-clipper right">
+            <div class="circle"></div>
+         </div>
+      </div>
+    </div>
+       </td>
           </tr>
         </tbody>
       </table>
     </div>
   </body>
+
+  <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l4 offset-l2 s12">
+                <ul>
+                  <li><a class="black-text" href="https://www.cryptocompare.com"><p style="text-align:center">Live Cryptocurrency Data Provided by <b>CryptoCompare</b></p></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+              <a class="black-text" href="https://jameshamann.com"><b><p style="text-align:center">Created by James Hamann</p></b></a>
+            </div>
+          </div>
+      </footer>
   <script src="./js/jquery-3.2.1.min.js"></script>
   <script src="./js/popup.js"></script>
-
 </html>
