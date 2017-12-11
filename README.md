@@ -1,1 +1,1 @@
-# coin-check-chrome-ext
+# Crypto Price Check
