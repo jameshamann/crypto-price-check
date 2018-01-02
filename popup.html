@@ -10,6 +10,7 @@
       <link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="./node_modules/semantic-ui-flag/flag.css">
     <title>CryptoPrice Check</title>
   </head>
   <body>
@@ -19,8 +20,10 @@
         <thead>
           <tr>
               <th>Name</th>
-              <th>Item Price (£GBP)</th>
-              <th>Item Price ($USD)</th>
+              <th>GBP <i class="gb flag"></i></th>
+              <th>USD <i class="us flag"></i></th>
+              <th>EUR <i class="eu flag"></i></th>
+
           </tr>
         </thead>
         <body>
@@ -48,11 +51,22 @@
         <div class="circle"></div>
      </div>
     </div>
+    <td id="bitcoineur">
+      <div class="preloader-wrapper small active">
+        <div class="spinner-layer spinner-green-only">
+          <div class="circle-clipper left">
+            <div class="circle"></div>
+          </div><div class="gap-patch">
+        <div class="circle"></div>
+      </div><div class="circle-clipper right">
+    <div class="circle"></div>
+ </div>
+</div>
       </td>
           </tr>
           <tr>
             <td><b>Bitcoin Cash (BCH)</b></td>
-            <td id="btcashgbp">£
+            <td id="btcashgbp">
               <div class="preloader-wrapper small active">
                 <div class="spinner-layer spinner-green-only">
                   <div class="circle-clipper left">
@@ -64,7 +78,7 @@
          </div>
       </div>
     </div>
-          <td id="btcashusd">£
+          <td id="btcashusd">
             <div class="preloader-wrapper small active">
               <div class="spinner-layer spinner-green-only">
                 <div class="circle-clipper left">
@@ -76,6 +90,18 @@
        </div>
       </div>
       </div>
+      <td id="btcasheur">
+        <div class="preloader-wrapper small active">
+          <div class="spinner-layer spinner-green-only">
+            <div class="circle-clipper left">
+              <div class="circle"></div>
+            </div><div class="gap-patch">
+          <div class="circle"></div>
+        </div><div class="circle-clipper right">
+      <div class="circle"></div>
+   </div>
+  </div>
+  </div>
         </td>
           </tr>
           <tr>
@@ -104,6 +130,18 @@
          </div>
         </div>
         </div>
+        <td id="ethereumeur">
+                  <div class="preloader-wrapper small active">
+                    <div class="spinner-layer spinner-green-only">
+                      <div class="circle-clipper left">
+                        <div class="circle"></div>
+                      </div><div class="gap-patch">
+                    <div class="circle"></div>
+                  </div><div class="circle-clipper right">
+                <div class="circle"></div>
+             </div>
+            </div>
+            </div>
         </td>
           </tr>
           <tr>
@@ -132,6 +170,18 @@
        </div>
       </div>
       </div>
+      <td id="litecoineur">
+        <div class="preloader-wrapper small active">
+          <div class="spinner-layer spinner-green-only">
+            <div class="circle-clipper left">
+              <div class="circle"></div>
+            </div><div class="gap-patch">
+          <div class="circle"></div>
+        </div><div class="circle-clipper right">
+      <div class="circle"></div>
+   </div>
+  </div>
+  </div>
        </td>
           </tr>
           <tr>
@@ -160,6 +210,18 @@
        </div>
       </div>
       </div>
+      <td id="rippleeur">
+        <div class="preloader-wrapper small active">
+          <div class="spinner-layer spinner-green-only">
+            <div class="circle-clipper left">
+              <div class="circle"></div>
+            </div><div class="gap-patch">
+          <div class="circle"></div>
+        </div><div class="circle-clipper right">
+      <div class="circle"></div>
+   </div>
+  </div>
+  </div>
        </td>
     </tr>
   </tbody>
@@ -180,6 +242,8 @@
       </div>
     </div>
   </footer>
-  <script src="./js/jquery-3.2.1.min.js"></script>
-  <script src="./js/popup.js"></script>
+      <script src="./js/jquery-3.2.1.min.js"></script>
+      <script src="./js/popup.js"></script>
+      <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.13/semantic.min.js"></script>
+
 </html>

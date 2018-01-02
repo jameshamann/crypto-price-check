@@ -1,0 +1,22 @@
+{
+  "name": "crypto_price_check",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jameshamann/crypto-price-check.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jameshamann/crypto-price-check/issues"
+  },
+  "homepage": "https://github.com/jameshamann/crypto-price-check#readme",
+  "dependencies": {
+    "semantic-ui-flag": "^2.2.12"
+  }
+}
