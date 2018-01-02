@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
       $.ajax({
-          url: "https://min-api.cryptocompare.com/data/pricemulti?fsyms=ETH,BTC,LTC,XRP,BCH&tsyms=USD,GBP,EUR",
+          url: "https://min-api.cryptocompare.com/data/pricemulti?fsyms=ETH,BTC,LTC,XRP,BCH,IOT&tsyms=USD,GBP,EUR",
           data: {
               txtsearch: $('#appendedInputButton').val()
           },
@@ -25,6 +25,11 @@ $(document).ready(function(){
             document.getElementById("btcashgbp").innerHTML="£"+data.BCH.GBP;
             document.getElementById("btcashusd").innerHTML="$"+data.BCH.USD;
             document.getElementById("btcasheur").innerHTML="€"+data.BCH.EUR;
+            document.getElementById("iotgbp").innerHTML="£"+data.IOT.GBP;
+            document.getElementById("iotusd").innerHTML="$"+data.IOT.USD;
+            document.getElementById("ioteur").innerHTML="€"+data.IOT.EUR;
+
+
 
           },
           error: function (xhr, status) {
