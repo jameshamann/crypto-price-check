@@ -10,7 +10,7 @@
       <link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Coin Check</title>
+    <title>CryptoPrice Check</title>
   </head>
   <body>
      <h5 style="text-align:center">Live Cryptocurrency Rates</h5>
@@ -20,12 +20,13 @@
           <tr>
               <th>Name</th>
               <th>Item Price (£GBP)</th>
+              <th>Item Price ($USD)</th>
           </tr>
         </thead>
         <body>
           <tr>
             <td><b>Bitcoin (BTC)</b></td>
-            <td id="bitcoin">£
+            <td id="bitcoingbp">
               <div class="preloader-wrapper small active">
                 <div class="spinner-layer spinner-green-only">
                   <div class="circle-clipper left">
@@ -35,42 +36,23 @@
               </div><div class="circle-clipper right">
             <div class="circle"></div>
          </div>
-      </div>
-    </div></td>
-          </tr>
-          <tr>
-            <td><b>Bitcoin Cash(BCH)</b></td>
-            <td id="btcash">£
-              <div class="preloader-wrapper small active">
-                <div class="spinner-layer spinner-green-only">
-                  <div class="circle-clipper left">
-                    <div class="circle"></div>
-                  </div><div class="gap-patch">
+        </div>
+        <td id="bitcoinusd">
+          <div class="preloader-wrapper small active">
+            <div class="spinner-layer spinner-green-only">
+              <div class="circle-clipper left">
                 <div class="circle"></div>
-              </div><div class="circle-clipper right">
+              </div><div class="gap-patch">
             <div class="circle"></div>
-         </div>
-      </div>
-    </div></td>
+          </div><div class="circle-clipper right">
+        <div class="circle"></div>
+     </div>
+    </div>
+      </td>
           </tr>
           <tr>
-            <td><b>Ethereum (ETH)</b></td>
-            <td id="ethereum">£
-              <div class="preloader-wrapper small active">
-                <div class="spinner-layer spinner-green-only">
-                  <div class="circle-clipper left">
-                    <div class="circle"></div>
-                  </div><div class="gap-patch">
-                <div class="circle"></div>
-              </div><div class="circle-clipper right">
-            <div class="circle"></div>
-         </div>
-      </div>
-    </div></td>
-          </tr>
-          <tr>
-            <td><b>Litecoin (LTC)</b></td>
-            <td id="litecoin">£
+            <td><b>Bitcoin Cash (BCH)</b></td>
+            <td id="btcashgbp">£
               <div class="preloader-wrapper small active">
                 <div class="spinner-layer spinner-green-only">
                   <div class="circle-clipper left">
@@ -82,11 +64,79 @@
          </div>
       </div>
     </div>
+          <td id="btcashusd">£
+            <div class="preloader-wrapper small active">
+              <div class="spinner-layer spinner-green-only">
+                <div class="circle-clipper left">
+                  <div class="circle"></div>
+                </div><div class="gap-patch">
+              <div class="circle"></div>
+            </div><div class="circle-clipper right">
+          <div class="circle"></div>
+       </div>
+      </div>
+      </div>
+        </td>
+          </tr>
+          <tr>
+            <td><b>Ethereum (ETH)</b></td>
+            <td id="ethereumgbp">
+              <div class="preloader-wrapper small active">
+                <div class="spinner-layer spinner-green-only">
+                  <div class="circle-clipper left">
+                    <div class="circle"></div>
+                  </div><div class="gap-patch">
+                <div class="circle"></div>
+              </div><div class="circle-clipper right">
+            <div class="circle"></div>
+         </div>
+      </div>
+    </div>
+    <td id="ethereumusd">
+              <div class="preloader-wrapper small active">
+                <div class="spinner-layer spinner-green-only">
+                  <div class="circle-clipper left">
+                    <div class="circle"></div>
+                  </div><div class="gap-patch">
+                <div class="circle"></div>
+              </div><div class="circle-clipper right">
+            <div class="circle"></div>
+         </div>
+        </div>
+        </div>
+        </td>
+          </tr>
+          <tr>
+            <td><b>Litecoin (LTC)</b></td>
+            <td id="litecoingbp">
+              <div class="preloader-wrapper small active">
+                <div class="spinner-layer spinner-green-only">
+                  <div class="circle-clipper left">
+                    <div class="circle"></div>
+                  </div><div class="gap-patch">
+                <div class="circle"></div>
+              </div><div class="circle-clipper right">
+            <div class="circle"></div>
+             </div>
+          </div>
+        </div>
+          <td id="litecoinusd">
+            <div class="preloader-wrapper small active">
+              <div class="spinner-layer spinner-green-only">
+                <div class="circle-clipper left">
+                  <div class="circle"></div>
+                </div><div class="gap-patch">
+              <div class="circle"></div>
+            </div><div class="circle-clipper right">
+          <div class="circle"></div>
+       </div>
+      </div>
+      </div>
        </td>
           </tr>
           <tr>
             <td><b>Ripple (XRP)</b></td>
-            <td id="ripple">£
+            <td id="ripplegbp">
               <div class="preloader-wrapper small active">
                 <div class="spinner-layer spinner-green-only">
                   <div class="circle-clipper left">
@@ -95,12 +145,24 @@
                 <div class="circle"></div>
               </div><div class="circle-clipper right">
             <div class="circle"></div>
-         </div>
+               </div>
+            </div>
+          </div>
+          <td id="rippleusd">
+            <div class="preloader-wrapper small active">
+              <div class="spinner-layer spinner-green-only">
+                <div class="circle-clipper left">
+                  <div class="circle"></div>
+                </div><div class="gap-patch">
+              <div class="circle"></div>
+            </div><div class="circle-clipper right">
+          <div class="circle"></div>
+       </div>
       </div>
-    </div>
+      </div>
        </td>
-          </tr>
-        </tbody>
+    </tr>
+  </tbody>
       </table>
     </div>
   </body>
