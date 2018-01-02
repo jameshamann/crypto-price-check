@@ -2,8 +2,8 @@
   "manifest_version": 2,
 
   "name": "CrypCheck",
-  "description": "This extension allows the user to check the price of Bitcoin,Ethereum or Litecoin.",
-  "version": "1.0",
+  "description": "This extension allows the user to check the price of Bitcoin, Bitcoin Cash, Ethereum, Litecoin, Ripple and IOTA.",
+  "version": "2.0",
 
   "browser_action": {
     "default_icon": "icon.png",
